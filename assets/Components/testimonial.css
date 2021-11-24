@@ -1,0 +1,58 @@
+/* TESTIMONIAL SECTION  */
+.testimonial-section {
+  /* position: relative;
+  overflow: hidden; */
+}
+.testimonial-section .testimonial-wrapper {
+  padding-bottom: 50px;
+}
+.testimonial-wrapper .section-title h2.heading {
+  text-align: left;
+}
+.testimonial-wrapper .section-title h2.heading::after {
+  left: 45px;
+}
+.item-testimonial-contents {
+  padding: 3rem;
+}
+.item-testimonial-contents .item-testimonial {
+  position: relative;
+}
+.item-testimonial-contents .item-testimonial .test-content {
+  position: relative;
+  width: 330px;
+  height: 190px;
+  background: #fff;
+  padding: 4rem 2.4rem 3rem 7rem;
+  box-shadow: 1px 1px 1px #ddd;
+}
+.item-testimonial-contents .item-testimonial .test-content p {
+  font-size: 17px;
+  color: #1c1c1c;
+  padding-bottom: 4rem;
+}
+.item-testimonial-contents .item-testimonial .test-content .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-testimonial-contents .item-testimonial .test-content .info a {
+  font-size: 15px;
+  color: #1c1c1c;
+}
+.item-testimonial-contents .item-testimonial .test-content .info a.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.item-testimonial-contents .item-testimonial:hover .test-content .info a {
+  color: rgb(85, 85, 241);
+}
+.item-testimonial-contents .item-testimonial .test-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 64px;
+  height: 64px;
+  background: blue;
+}

@@ -1,0 +1,34 @@
+.team-section {
+	position: relative;
+	overflow: hidden;
+}
+.team-section .team-wrapper {
+	padding: 50px;
+}
+.team-section .section-title h2.heading {
+	text-align: left;
+}
+.team-section .section-title h2.heading::after {
+	left: 45px;
+}
+.item-team-contents {
+	padding: 50px 0px;
+}
+.item-team-contents .team-content {
+	margin: auto;
+	text-align: center;
+}
+.item-team-contents .team-content .team-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 370px;
+	height: 390px;
+	background: #582fd7;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.item-team-contents .team-content .team-image img {
+	width: auto;
+	margin: auto;
+}

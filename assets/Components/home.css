@@ -1,0 +1,220 @@
+/* header top bar part styles  */
+.header-top-bar {
+	padding: 1rem 0;
+	background: #ff0000;
+}
+
+.header-top-info {
+	width: 100%;
+	max-width: 1160px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-top-info .icon-box a {
+	font-family: "Poppins" sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.header-top-info .icon-box a:hover {
+	color: antiquewhite;
+}
+.header-top-info .icon-box a i {
+	padding-right: 5px;
+}
+
+/* header nvigation part styles */
+
+.navigation-wrapper .navigation-bar {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+}
+.navigation-wrapper .navigation-bar .logo {
+	flex-basis: 100%;
+	max-width: 100px;
+}
+.navigation-wrapper .navigation-bar .menu-box {
+	display: flex;
+	justify-content: center;
+	flex: 1;
+}
+.navigation-wrapper .navigation-bar .menu-box .main-menu {
+	width: 100%;
+	max-width: 860px;
+}
+.navigation-wrapper .navigation-bar .toggler-icon {
+	width: 100%;
+	max-width: 45px;
+	position: absolute;
+	right: 0px;
+	display: none;
+}
+.navigation-wrapper .navigation-bar .toggler-icon i {
+	font-size: 26px;
+}
+.navigation-wrapper .navigation-bar .menu-box .main-menu li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 7rem;
+}
+.navigation-wrapper .navigation-bar .menu-box .main-menu li:last-child {
+	margin-right: 0;
+}
+.navigation-wrapper .navigation-bar .menu-box .main-menu li a {
+	font-family: "Raleway";
+	font-size: 1.6rem;
+	color: #454546;
+	text-transform: uppercase;
+}
+
+.navigation-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 2rem 6rem;
+}
+.navigation-wrapper .menu-box .main-menu {
+	width: 100%;
+	max-width: 860px;
+	margin: auto;
+}
+.navigation-wrapper .menu-box .main-menu li {
+	display: inline-block;
+	margin-right: 2.5rem;
+}
+.navigation-wrapper .menu-box .main-menu li:last-child {
+	margin-right: 0;
+}
+.navigation-wrapper .menu-box .main-menu li a {
+	font-family: "Raleway";
+	font-size: 1.6rem;
+	color: #454546;
+	text-transform: uppercase;
+}
+.navigation-wrapper .navigation-bar .login-search {
+	flex-basis: 100%;
+	max-width: 187px;
+	display: flex;
+	font-size: 16px;
+	justify-content: space-between;
+}
+.navigation-wrapper .navigation-bar .login-search .login a {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.navigation-wrapper .navigation-bar .login-search .login a i {
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.navigation-wrapper .navigation-bar .login-search .search-box i {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* MOBILE MENU OPTION  */
+ul.mobile-menu {
+	background: #c80505d1;
+	color: #fff;
+	display: none;
+	max-height: 400px;
+	overflow: scroll;
+}
+ul.mobile-menu li {
+	border-bottom: 1px solid;
+	padding: 1.5rem 5.5rem;
+}
+ul.mobile-menu li:first-child {
+	border-top: 1px solid #454546;
+}
+ul.mobile-menu li:last-child {
+	border-bottom: 0;
+}
+.mobile-menu li a {
+	font-family: "Raleway";
+	font-size: 16px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+/* BANNER SECTION STYLES  */
+
+.banner-section {
+	position: relative;
+	background: url(../images/banner/tower.png) no-repeat right center;
+	background-size: cover;
+}
+
+.banner-wrapper {
+	width: 100%;
+	max-width: 1700px;
+	margin: auto;
+	display: block;
+}
+
+.banner-section .banner-content {
+	padding-top: 200px;
+	padding-bottom: 230px;
+}
+.banner-section .banner-content h1 {
+	font-size: 5.6rem;
+	font-weight: 400;
+	color: #454546;
+}
+.banner-section .banner-content h1 span {
+	font-size: 5.6rem;
+	color: #454546;
+	max-width: 180px;
+	display: block;
+}
+.banner-section .banner-content p {
+	font-size: 18px;
+	color: #454546;
+	padding-top: 2rem;
+	padding-bottom: 7rem;
+	width: 100%;
+	max-width: 605px;
+}
+.banner-section .banner-content a {
+	background: #f62323;
+	max-width: 180px;
+	max-height: 55px;
+	text-transform: uppercase;
+}
+.banner-section .banner-content a:hover {
+	border-radius: 5px;
+	background: #2c2c2c;
+}
+.banner-section .banner-content a i {
+	padding-left: 2px;
+}
+
+.banner-section .banner-wrapper .owl-nav {
+	display: block !important;
+	position: absolute;
+	top: 50%;
+	right: 60px;
+}
+.banner-section .banner-wrapper .owl-nav button.owl-prev {
+	font-size: 20px;
+	background: red;
+	color: #fff;
+	position: absolute;
+	top: -85px;
+	right: 30px;
+	width: 75px;
+	height: 75px;
+}
+.banner-section .banner-wrapper .owl-nav button.owl-next {
+	padding: 16px !important;
+	font-size: 20px;
+	background: red;
+	color: #fff;
+	position: absolute;
+	right: 30px;
+	width: 75px;
+	height: 75px;
+}

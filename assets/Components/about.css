@@ -1,0 +1,22 @@
+/* ABOUT SECTION  */
+.features-section .features-wrapper {
+	padding-top: 12.3rem;
+	padding-bottom: 95px;
+}
+.features-section .features-wrapper .features-img img {
+	width: 100%;
+}
+
+.features-section .features-wrapper .features-content {
+	padding-left: 5px;
+}
+.features-section .features-wrapper .features-content h2.heading {
+	text-align: left;
+	padding-bottom: 0;
+}
+.features-section .features-wrapper .features-content h2.heading::after {
+	left: 45px;
+}
+.features-section .features-wrapper .features-content p {
+	padding-bottom: 5.3rem;
+}

@@ -1,0 +1,84 @@
+/* FOOTER SECTION STYLES  */
+.footer-top-section {
+  position: relative;
+  background: #2c2c2c;
+}
+.footer-top-section .footer-top-wrapper {
+  padding-top: 50px;
+  padding-bottom: 3.5rem;
+}
+.footer-top-section .footer-top-wrapper .footer-contents {
+  color: #f8f8f8;
+}
+.footer-top-section .footer-top-wrapper .footer-contents h3 {
+  color: #f8f8f8;
+  padding-bottom: 30px;
+}
+.footer-top-section .footer-top-wrapper .footer-contents .info > li {
+  padding: 5px 10px;
+}
+.footer-top-section .footer-top-wrapper .footer-contents .info > li > a {
+  font-size: 17px;
+  color: #f8f8f8;
+}
+.footer-top-section .footer-top-wrapper .footer-contents .info > li > a i {
+  padding-right: 5px;
+}
+
+.footer-top-section .footer-contents form {
+  position: relative;
+}
+.footer-top-section .footer-contents form input {
+  position: relative;
+  padding: 10px 25px;
+}
+.footer-top-section .footer-contents form button {
+  position: relative;
+  padding: 10px 25px;
+}
+
+/* social link styles  */
+.social-links {
+  margin-top: 20px;
+}
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.social-links li a {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  font-size: 20px;
+  line-height: 64px;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+}
+.social-link li a i {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.4s linear;
+}
+.social-link li a:hover {
+  border: 1px dotted #717171;
+  border-radius: 50%;
+}
+.social-links li a:hover i {
+  transform: rotate(360deg);
+  color: #ffffff;
+}
+
+.footer-botom-wrapper {
+  padding: 20px 30px;
+  background: #ffffff;
+}
+.footer-botom-wrapper .copyright-text p {
+  font-size: 17px;
+  color: #2c2c2c;
+  text-align: center;
+}
