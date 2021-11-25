@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 	$(".banner-slider").owlCarousel({
 		loop: true,
-		margin: 30,
+		margin: 10,
 		autoplay: true,
 		nav: true,
 		dots: true,
@@ -46,31 +46,47 @@ $(document).ready(function () {
 
 	$(".item-team-contents").owlCarousel({
 		loop: true,
-		margin: 30,
-		autoplay: false,
-		nav: true,
-		dots: false,
+		margin: 10,
+		center: false,
+		items: 3,
+		autoplay: true,
+		nav: false,
+		dots: true,
 		responsive: {
 			0: {
 				items: 1,
 			},
-			1000: {
+			600: {
 				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			1000: {
+				items: 3,
 			},
 		},
 	});
 	$(".item-test-contents").owlCarousel({
 		loop: true,
-		margin: 30,
-		autoplay: false,
-		nav: true,
-		dots: false,
+		margin: 10,
+		center: false,
+		items: 3,
+		autoplay: true,
+		nav: false,
+		dots: true,
 		responsive: {
 			0: {
 				items: 1,
 			},
-			1000: {
+			600: {
 				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			1000: {
+				items: 3,
 			},
 		},
 	});

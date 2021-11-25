@@ -1,168 +1,94 @@
+/*=================================
+ SERVICES SECTION STYLES START HERE  */
+
 /* SERVICES SECTION STYLES  */
 .services-section {
-	background: #f74646;
+  position: relative;
+  background: #ffffff;
 }
 .services-section .services-wrapper {
-	padding-top: 55px;
-	padding-bottom: 70px;
+  padding-top: 55px;
+  padding-bottom: 70px;
 }
 .services-section .services-wrapper .section-title {
-	margin: 0 auto;
-	text-align: left;
-	padding-bottom: 6.5rem;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 6.5rem;
 }
 
 .services-section .services-wrapper p {
-	font-size: 17px;
-	color: #585757;
+  font-size: 17px;
+  color: #585757;
 }
 
 .services-section .services-wrapper .services-icon {
-	display: flex;
-	justify-content: center;
-	width: 120px;
-	height: 120px;
-	margin: auto;
-	transition: all 0.4s linear;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  transition: all 0.4s linear;
 }
 .services-section .services-wrapper .services-icon img {
-	transition: all 0.4s linear;
-	filter: invert();
-	margin: auto;
+  transition: all 0.4s linear;
+  filter: invert();
+  margin: auto;
 }
 
 .services-section .services-wrapper .services-content {
-	width: 100%;
-	max-width: 350px;
-	margin: auto;
-	padding-bottom: 26px;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  padding-bottom: 26px;
 }
 .services-section .services-wrapper .services-content h4 {
-	color: #0d0c08;
-	padding: 2rem 0;
-	font-size: 20px;
-	text-transform: capitalize;
-	transition: all 0.4s linear;
-	text-align: center;
+  color: #0d0c08;
+  padding: 2rem 0;
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: all 0.4s linear;
+  text-align: center;
 }
 
 .services-section .services-wrapper .services-content p {
-	color: #585757;
-	width: 100%;
-	max-width: 336px;
-	padding-bottom: 4.8rem;
-	text-align: center;
+  color: #585757;
+  width: 100%;
+  max-width: 336px;
+  padding-bottom: 4.8rem;
+  text-align: center;
 }
-.services-section .services-wrapper .services-content p.big {
-}
+
 .services-section .services-wrapper .services-content p.small {
-	max-width: 320px;
+  max-width: 320px;
 }
 
 .services-section .services-content:hover .services-icon {
-	/* background: rgb(236, 172, 185); */
-	border-radius: 10px;
-	border: 1px dotted rgb(204, 194, 194);
-	box-shadow: 1px 5px 30px #ddd;
+  border-radius: 10px;
+  background: #dadada2c;
+  /* background: rgb(236, 172, 185);
+	border: 1px dotted rgb(204, 194, 194); */
+  -webkit-box-shadow: 1px 5px 30px #ddd;
+  -moz-box-shadow: 1px 5px 30px #ddd;
+  -ms-box-shadow: 1px 5px 30px #ddd;
+  -o-box-shadow: 1px 5px 30px #ddd;
+  shadow: 1px 5px 30px #ddd;
 }
 .services-section .services-content:hover .services-icon img {
-	filter: grayscale(100%);
-	transform: rotate(360deg);
+  filter: grayscale(100%);
+  transform: rotate(360deg);
 }
 .services-section .services-content:hover h4 > a {
-	color: #5b2ddb;
+  color: #5b2ddb;
 }
 .services-section .services-wrapper a.btn {
-	color: #ffffff;
-	background: #582fd7;
-	text-align: center;
-	margin: auto;
-	border-radius: 30px;
+  color: #ffffff;
+  background: #582fd7;
+  text-align: center;
+  margin: auto;
+  border-radius: 30px;
 }
 .services-section .services-wrapper a.btn:hover {
-	color: #ffffff;
-	background: #ff0000;
-	/* background: #454546; */
-}
-
-/* property section styles  */
-.property-section {
-	position: relative;
-	overflow: hidden;
-}
-.property-section .property-wrapper {
-	padding-top: 5.2rem;
-	padding-bottom: 10.5rem;
-}
-
-.property-section .property-wrapper .section-title .heading {
-	padding-bottom: 1.5rem;
-}
-.property-section .property-wrapper .section-title p {
-	max-width: 970px;
-}
-.property-section .properties-content {
-	position: relative;
-	z-index: 1;
-	margin-bottom: 20px;
-	transition: all 0.4s linear;
-}
-.property-section .properties-content img {
-	width: 100%;
-}
-.properties-content.item-01 {
-	width: 100%;
-	max-width: 420px;
-	margin: auto;
-}
-.properties-content.item-02 {
-	width: 100%;
-	max-width: 350px;
-	margin: auto;
-	margin-top: 30px;
-	margin-bottom: 40px;
-	position: relative;
-	z-index: 1;
-}
-.item-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 3;
-	width: 100%;
-	height: 100%;
-	display: none;
-	background-color: #f74646d7;
-}
-.property-section .properties-content:hover .item-overlay {
-	display: block;
-}
-
-.item-overlay div {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	z-index: 4;
-	transform: translate(-50%, -50%);
-	color: #ffffff;
-}
-.item-overlay div h5 {
-	font-size: 17px;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-.item-overlay div a {
-	font-size: 13px;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-	display: inline-block;
-	margin: 7px 0px 0px 25px;
-	text-transform: capitalize;
-}
-.item-overlay div a:hover {
-	color: #ffffff;
-}
-.property-section .property-wrapper .btn {
-	margin: auto;
-	margin-top: 4rem;
+  color: #ffffff;
+  /* background: #ff0000; */
+  background: #454546;
 }
